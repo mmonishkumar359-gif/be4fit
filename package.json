@@ -1,0 +1,17 @@
+{
+  "name": "voice-fitness-trainer",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "echo 'Vanilla HTML/JS - no build step needed'",
+    "start": "node server.js",
+    "lint": "echo 'Vanilla JS - no lint needed'"
+  },
+  "dependencies": {
+    "@google/genai": "^2.4.0",
+    "express": "^4.21.2",
+    "dotenv": "^17.2.3"
+  }
+}
